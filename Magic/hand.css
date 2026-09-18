@@ -1,0 +1,71 @@
+
+body {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#battle_stage{
+    background-color: green;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+
+#spells_stage {
+    background-color: blue;
+    height: 50%;
+    width: 100%;
+    flex:1;
+    display: flex;
+}
+
+#lands_stage {
+    background-color: red;
+    height: 50%;
+    width: 100%;
+    flex:1;
+    display: flex;
+}
+
+#spell_slot{
+    margin: 10px 0 0 10px;
+    height: fit-content;
+    width: fit-content;
+    background-color: green;
+}
+
+#land_slot{
+    margin: 10px 0 0 10px;
+    height: fit-content;
+    width: fit-content;
+    background-color: green;
+}
+
+#carta_spell{
+    height: 45vh;
+    aspect-ratio: 1/1.4;
+    width: auto;
+    transform-origin: top left;
+}
+
+#carta_spell:hover{
+    transform: scale(1.4);
+}
+
+#carta_land{
+    height: 45vh;
+    aspect-ratio: 1/1.4;
+    width: auto;
+    transform-origin: bottom left;
+}
+
+#carta_land:hover{
+    transform: scale(1.4);
+}
+
+#temp{
+    background-color: purple;
+}
